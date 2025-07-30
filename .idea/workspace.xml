@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c620a3a-b8a5-4f44-bb49-957f637cd0b8" name="Changes" comment="" />
+    <list default="true" id="1c620a3a-b8a5-4f44-bb49-957f637cd0b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,81 +42,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyAge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyIcon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MySquareBlock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInput.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BMI.executor": "Run",
+    "Application.BMI2.executor": "Run",
+    "Application.BankAccOperation.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.MarkGrade.executor": "Run",
+    "Application.MyAge.executor": "Run",
+    "Application.MyIcon.executor": "Run",
+    "Application.MyName.executor": "Run",
+    "Application.MySquareBlock.executor": "Run",
+    "Application.MyTriangle.executor": "Run",
+    "Application.StudentAvg.executor": "Run",
+    "Application.UserInput.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8",
+    "onboarding.tips.debug.path": "/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.MyTriangle">
-    <configuration name="MyAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyAge" />
+}]]></component>
+  <component name="RunManager" selected="Application.MarkGrade">
+    <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BMI" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIcon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyIcon" />
+    <configuration name="BMI2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BMI2" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyName" />
+    <configuration name="BankAccOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankAccOperation" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySquareBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySquareBlock" />
+    <configuration name="MarkGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MarkGrade" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTriangle" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="StudentAvg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentAvg" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="khinephoowai-java-batch8" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MySquareBlock" />
-        <item itemvalue="Application.MyTriangle" />
-        <item itemvalue="Application.MyName" />
-        <item itemvalue="Application.MyIcon" />
-        <item itemvalue="Application.MyAge" />
+        <item itemvalue="Application.MarkGrade" />
+        <item itemvalue="Application.StudentAvg" />
+        <item itemvalue="Application.BankAccOperation" />
+        <item itemvalue="Application.BMI2" />
+        <item itemvalue="Application.BMI" />
       </list>
     </recent_temporary>
   </component>
