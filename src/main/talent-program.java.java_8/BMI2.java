@@ -9,7 +9,9 @@ public class BMI2 {
 
         System.out.print("Enter Your Height in feet");
         double height = input.nextDouble();
-        double height_inches = height*12;
+
+        System.out.print("Enter Your Height in inches");
+        double height_inches =input.nextDouble();
 
         double bmi = (weight/(height_inches*height_inches))*703;
         System.out.println("Your BMI value is"+bmi);

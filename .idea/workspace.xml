@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c620a3a-b8a5-4f44-bb49-957f637cd0b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/BankAccOperation_2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Calculator_3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/CountLetter_3_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Factorial_3_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/MethodOverload_3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/MultiplicationTable_3_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/PrimeNumber_3_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/ReverseString_3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/StringCount_3_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/StudentAvg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/StudentAvg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/BMI2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/BMI2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/BankAccOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/MarkGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/MarkGrade_2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/StudentAvg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/StudentAvg_2_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +47,9 @@
     &quot;accountId&quot;: &quot;65180769-dc5b-4df2-8e5e-6f3c2c747013&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -43,65 +58,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BMI.executor": "Run",
-    "Application.BMI2.executor": "Run",
-    "Application.BankAccOperation.executor": "Run",
-    "Application.Hello.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.MarkGrade.executor": "Run",
-    "Application.MyAge.executor": "Run",
-    "Application.MyIcon.executor": "Run",
-    "Application.MyName.executor": "Run",
-    "Application.MySquareBlock.executor": "Run",
-    "Application.MyTriangle.executor": "Run",
-    "Application.StudentAvg.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.UserInput.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8",
-    "onboarding.tips.debug.path": "/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BMI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMI2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator_3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountLetter_3_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial_3_9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkGrade.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodOverload_3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplicationTable_3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyAge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIcon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MySquareBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCount_3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentAvg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserInput.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StudentAvg">
-    <configuration name="BMI2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BMI2" />
+}</component>
+  <component name="RunManager" selected="Application.Factorial_3_9">
+    <configuration name="Calculator_3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator_3_3" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankAccOperation" />
+    <configuration name="CountLetter_3_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountLetter_3_8" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarkGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MarkGrade" />
+    <configuration name="Factorial_3_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial_3_9" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAvg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentAvg" />
+    <configuration name="MyName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyName" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="StringCount_3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringCount_3_5" />
       <module name="khinephoowai-java-batch8" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentAvg" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MarkGrade" />
-        <item itemvalue="Application.BankAccOperation" />
-        <item itemvalue="Application.BMI2" />
+        <item itemvalue="Application.Factorial_3_9" />
+        <item itemvalue="Application.MyName" />
+        <item itemvalue="Application.CountLetter_3_8" />
+        <item itemvalue="Application.Calculator_3_3" />
+        <item itemvalue="Application.StringCount_3_5" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +168,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/khinephoowai_java_batch8$Factorial_3_9.ic" NAME="Factorial_3_9 Coverage Results" MODIFIED="1753981038082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

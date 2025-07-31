@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MarkGrade {
+public class MarkGrade_2_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
