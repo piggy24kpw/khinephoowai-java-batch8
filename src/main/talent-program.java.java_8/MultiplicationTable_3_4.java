@@ -20,6 +20,7 @@ public class MultiplicationTable_3_4 {
         int line = input.nextInt();
 
         printTable(num,line);
+        input.close();
 
     }
 }

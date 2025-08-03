@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MethodOverload_3_2 {
+public class OverloadingMethod_3_2 {
     static void greet(){
         System.out.println("Hello");
     }

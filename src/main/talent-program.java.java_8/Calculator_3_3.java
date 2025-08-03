@@ -32,6 +32,7 @@ public class Calculator_3_3 {
             else {
                 System.out.println("End!");
             }
+            input.close();
 
 
     }

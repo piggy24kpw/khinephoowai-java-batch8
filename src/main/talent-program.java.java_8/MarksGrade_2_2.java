@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MarkGrade_2_2 {
+public class MarksGrade_2_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -27,6 +27,7 @@ public class MarkGrade_2_2 {
         }else if (avg <= 100){
             System.out.println("Your result is Grade A");
 
-    }
+        }
+        input.close();
     }
 }
