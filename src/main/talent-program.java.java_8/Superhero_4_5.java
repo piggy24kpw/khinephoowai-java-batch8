@@ -11,7 +11,6 @@ abstract  class Superhero{
     }
     public int powerBoost(int boostLevel){
         powerLevel += boostLevel;
-        System.out.println(heroName + " is increased level "+ powerLevel);
         return powerLevel;
 
     }
@@ -55,7 +54,9 @@ public class Superhero_4_5 {
             superHeroList[4] = new StrengthHero("Hulk",95);
 
             for(Superhero s : superHeroList){
-                s.powerBoost(3);
+                int powerLevel=s.powerBoost(3);
+                System.out.println(s.heroName + " is increased level "+ powerLevel);
+
             }
 
         }

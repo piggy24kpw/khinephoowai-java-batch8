@@ -48,7 +48,7 @@ class HourlyEmployee extends Employee{
             payAmount = hourlyRate * hoursWorked;
         } else {
             double overtime = hoursWorked - 40;
-            payAmount = (hourlyRate * 40) + (overtime * hourlyRate);
+            payAmount = (hourlyRate * 40) + (overtime * hourlyRate * 1.5);
         }
         return payAmount;
     }

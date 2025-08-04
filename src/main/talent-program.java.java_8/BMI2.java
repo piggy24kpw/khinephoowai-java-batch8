@@ -10,10 +10,13 @@ public class BMI2 {
         System.out.print("Enter Your Height in feet");
         double height = input.nextDouble();
 
+
         System.out.print("Enter Your Height in inches");
         double height_inches =input.nextDouble();
 
-        double bmi = (weight/(height_inches*height_inches))*703;
+        double total_height =( height*12) + height_inches;
+
+        double bmi = (weight/(total_height*total_height))*703;
         System.out.println("Your BMI value is"+bmi);
 
         if (bmi<18.5){
