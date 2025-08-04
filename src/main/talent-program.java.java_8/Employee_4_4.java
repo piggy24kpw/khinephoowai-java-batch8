@@ -1,4 +1,4 @@
-class Employee{
+abstract class Employee{
     String name;
     int id;
 
@@ -8,9 +8,7 @@ class Employee{
         this.id = id;
     }
 
-    double calculatePay(){
-        return 0.0;
-    }
+    public abstract double calculatePay();
 
     public String getName() {
         return name;
@@ -44,20 +42,20 @@ class HourlyEmployee extends Employee{
         this.hoursWorked = hoursWorked;
         this.hourlyRate = hourlyRate;
     }
-    double calculatePay(){
+    public double calculatePay(){
         double payAmount;
-        if(hoursWorked >= 160.00) {
-            payAmount = (hourlyRate * 160) + ((hoursWorked - 160) * (hourlyRate + (hourlyRate * 1.5)));
-            return payAmount;
-        } else {
+        if(hoursWorked <=40) {
             payAmount = hourlyRate * hoursWorked;
-            return payAmount;
+        } else {
+            double overtime = hoursWorked - 40;
+            payAmount = (hourlyRate * 40)+(overtime * hourlyRate);
         }
         /*String toString() {
             return Double.parseDouble("HourlyEmployee:" +
                     "\nSalary=" + payAmount);
         }*/
 
+        return payAmount;
     }
 
 }
@@ -69,7 +67,7 @@ class SalariedEmployee extends Employee{
         super(name, id);
         this.annualSalary = annualSalary;
     }
-    double calculatePay(){
+    public double calculatePay(){
         double salary = annualSalary / 12;
         return salary;
     }
