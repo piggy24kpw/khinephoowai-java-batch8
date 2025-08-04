@@ -42,21 +42,19 @@ class HourlyEmployee extends Employee{
         this.hoursWorked = hoursWorked;
         this.hourlyRate = hourlyRate;
     }
-    public double calculatePay(){
+    public double calculatePay() {
         double payAmount;
-        if(hoursWorked <=40) {
+        if (hoursWorked <= 40) {
             payAmount = hourlyRate * hoursWorked;
         } else {
             double overtime = hoursWorked - 40;
-            payAmount = (hourlyRate * 40)+(overtime * hourlyRate);
+            payAmount = (hourlyRate * 40) + (overtime * hourlyRate);
         }
-        /*String toString() {
-            return Double.parseDouble("HourlyEmployee:" +
-                    "\nSalary=" + payAmount);
-        }*/
-
         return payAmount;
     }
+        public String toString() {
+            return "HoursEmployee Name:" + name + " \nID " + id + "\nPay Amount:" + calculatePay();
+        }
 
 }
 
@@ -72,8 +70,7 @@ class SalariedEmployee extends Employee{
         return salary;
     }
     public String toString() {
-        return "SalariedEmployee:" +
-                "\nannualSalary=" + annualSalary;
+        return "SalariedEmployee Name:" + name + "\nID" + id + "\nannualSalary:" + annualSalary;
     }
 }
 public class Employee_4_4 {
@@ -82,10 +79,11 @@ public class Employee_4_4 {
             Employee[] employeeList = new Employee[3];
             employeeList[0] = new HourlyEmployee("Mg Mg",5,10.5,8);
             employeeList[1] = new SalariedEmployee("Su Su",25,100);
+            employeeList[2] = new HourlyEmployee("Phoo Phoo",10,10.5,42);
 
             for(Employee e :employeeList){
                 e.calculatePay();
-                e.toString();
+                System.out.println(e);
             }
         }
     }
