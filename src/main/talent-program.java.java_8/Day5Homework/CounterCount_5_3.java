@@ -14,7 +14,7 @@ class Counter {
 
 
 
-public class CounterCount_5_2 {
+public class CounterCount_5_3 {
     public static void main(String[] args) {
         Counter myCounter1 = new Counter();
         Counter myCounter2 = new Counter();
