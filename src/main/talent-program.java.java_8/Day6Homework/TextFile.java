@@ -9,7 +9,7 @@ public class TextFile {
 
     public void createFile() {
         try {
-            File myObj = new File("khinephoowai/Java/testJava.txt");
+            File myObj = new File("khinephoowai\\Java\\testJava2.txt");
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
             } else {
@@ -44,33 +44,34 @@ public class TextFile {
         TextFile txt = new TextFile();
         Scanner input = new Scanner(System.in);
 
-        System.out.println("1: Create File");
-        System.out.println("2: Write File");
-        System.out.println("3: Delete File");
-        System.out.print("Enter your choice: ");
-        int menu = input.nextInt();
-        input.nextLine(); // Consume the newline
+        int menu;
 
-        switch (menu) {
-            case 1:
-                txt.createFile();
-                break;
-            case 2:
-                System.out.print("Enter file path to write: ");
-                String writePath = input.nextLine();
-                System.out.print("Enter content: ");
-                String content = input.nextLine();
-                txt.writeFile(writePath, content);
-                break;
-            case 3:
-                System.out.print("Enter file path to delete: ");
-                String deletePath = input.nextLine();
-                txt.deleteFile(deletePath);
-                break;
-            default:
-                System.out.println("Invalid option.");
-        }
+       do {
+           System.out.println("1: Create File");
+           System.out.println("2: Write File");
+           System.out.println("3: Delete File");
+           System.out.print("Enter your choice: ");
+            menu = input.nextInt();
 
-        input.close();
+           switch (menu) {
+               case 1:
+                   txt.createFile();
+                   break;
+               case 2:
+                   System.out.print("Enter content: ");
+                   String writePath = input.nextLine();
+                   String content = input.nextLine();
+                   txt.writeFile(writePath, content);
+                   break;
+               case 3:
+                   System.out.print("Enter file path to delete: ");
+                   String deletePath = input.nextLine();
+                   txt.deleteFile(deletePath);
+                   break;
+               default:
+                   System.out.println("Invalid option.");
+           }
+       }while(menu != 3);
+      input.close();
     }
 }
