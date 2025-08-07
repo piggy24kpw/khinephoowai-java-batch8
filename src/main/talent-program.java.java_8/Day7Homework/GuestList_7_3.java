@@ -25,7 +25,7 @@ public class GuestList_7_3 {
         }
 
         guest.remove("Jue");
-        System.out.println("The number of guest is " + guest.size());
+        System.out.println("The total number of guest is " + guest.size());
 
     }
 }

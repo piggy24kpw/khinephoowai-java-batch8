@@ -26,7 +26,7 @@ public class TextFile {
             myWriter.write(content);
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("An error occurred.");
         }
     }
@@ -50,6 +50,7 @@ public class TextFile {
            System.out.println("1: Create File");
            System.out.println("2: Write File");
            System.out.println("3: Delete File");
+           System.out.println("4. Exit");
            System.out.print("Enter your choice: ");
             menu = input.nextInt();
 
@@ -58,8 +59,10 @@ public class TextFile {
                    txt.createFile();
                    break;
                case 2:
-                   System.out.print("Enter content: ");
+                   input.nextLine(); // Consume leftover newline
+                   System.out.print("Enter file path to write: (eg.khinephoowai\\Java\\testJava2.txt)");
                    String writePath = input.nextLine();
+                   System.out.print("Enter content: ");
                    String content = input.nextLine();
                    txt.writeFile(writePath, content);
                    break;
@@ -68,10 +71,13 @@ public class TextFile {
                    String deletePath = input.nextLine();
                    txt.deleteFile(deletePath);
                    break;
+               case 4:
+                   System.out.println("Exit!");
+                   break;
                default:
                    System.out.println("Invalid option.");
            }
-       }while(menu != 3);
+       }while(menu != 4);
       input.close();
     }
 }
