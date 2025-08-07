@@ -19,6 +19,16 @@ public class StudentNameList_7_4 {
             System.out.println(it.next());
         }
 
+        String goodStudent = null;
+        int highestMark = -1;
+        for (Map.Entry<String, Integer> entry : studentList.entrySet()) {
+            if (entry.getValue() > highestMark) {
+                highestMark = entry.getValue();
+                goodStudent = entry.getKey();
+            }
+        }
+        System.out.println(" The student " + goodStudent + " with " + highestMark + " marks is highest.");
+
 
         studentList.remove("Rina");
 

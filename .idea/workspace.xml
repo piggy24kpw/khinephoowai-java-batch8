@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c620a3a-b8a5-4f44-bb49-957f637cd0b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/DepartmentManagement_7_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/GuestList_7_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/PeopleList_7_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/StudentCollection_7_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/StudentNameList_7_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day6Homework/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day6Homework/TextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/StudentNameList_7_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/StudentNameList_7_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,63 +47,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Animal_4_2$Zoo.executor": "Run",
-    "Application.Animal_5_2.executor": "Run",
-    "Application.BMI.executor": "Run",
-    "Application.BMI2.executor": "Run",
-    "Application.BankAccOperation.executor": "Run",
-    "Application.BookPrintable_5_4.executor": "Run",
-    "Application.BookStore_4_6.executor": "Run",
-    "Application.Calculator_3_3.executor": "Run",
-    "Application.CountLetter_3_8.executor": "Debug",
-    "Application.CounterCount_5_2.executor": "Run",
-    "Application.DepartmentManagement_7_5.executor": "Run",
-    "Application.Division_6_1.executor": "Run",
-    "Application.Employee_4_4$Payroll.executor": "Run",
-    "Application.Factorial_3_9.executor": "Run",
-    "Application.GuestList_7_3.executor": "Run",
-    "Application.Hello.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.MarkGrade.executor": "Run",
-    "Application.MethodOverload_3_2.executor": "Run",
-    "Application.MultiplicationTable_3_4.executor": "Run",
-    "Application.MyAge.executor": "Run",
-    "Application.MyIcon.executor": "Run",
-    "Application.MyName.executor": "Run",
-    "Application.MySquareBlock.executor": "Run",
-    "Application.MyTriangle.executor": "Run",
-    "Application.ParsingDivision.executor": "Run",
-    "Application.PeopleList_7_2.executor": "Run",
-    "Application.Person_4_1$Main.executor": "Run",
-    "Application.Person_4_1.executor": "Run",
-    "Application.PrimeNumber_3_6.executor": "Run",
-    "Application.ReverseString_3_1.executor": "Run",
-    "Application.Shape_5_1.executor": "Debug",
-    "Application.StringCount_3_5.executor": "Run",
-    "Application.StudentAvg.executor": "Run",
-    "Application.StudentCollection_7_1.executor": "Run",
-    "Application.StudentManagement.executor": "Run",
-    "Application.StudentNameList_7_4.executor": "Run",
-    "Application.Superhero_4_5$Main.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TextFile.executor": "Run",
-    "Application.UserInput.executor": "Run",
-    "Application.Vehicle_4_2$FleetManager.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8",
-    "onboarding.tips.debug.path": "/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Animal_4_2$Zoo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Animal_5_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMI2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookPrintable_5_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookStore_4_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator_3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountLetter_3_8.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CounterCount_5_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DepartmentManagement_7_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Division_6_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Employee_4_4$Payroll.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial_3_9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuestList_7_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkGrade.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodOverload_3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplicationTable_3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyAge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIcon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MySquareBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParsingDivision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeopleList_7_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person_4_1$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber_3_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString_3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Shape_5_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringCount_3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentAvg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentCollection_7_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentManagement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentNameList_7_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Superhero_4_5$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Vehicle_4_2$FleetManager.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/khinephoowai/IdeaProjects/khinephoowai-java-batch8/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DepartmentManagement_7_5">
+}</component>
+  <component name="RunManager" selected="Application.StudentNameList_7_4">
     <configuration name="DepartmentManagement_7_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day7Homework.DepartmentManagement_7_5" />
       <module name="khinephoowai-java-batch8" />
@@ -176,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DepartmentManagement_7_5" />
         <item itemvalue="Application.StudentNameList_7_4" />
+        <item itemvalue="Application.DepartmentManagement_7_5" />
         <item itemvalue="Application.GuestList_7_3" />
         <item itemvalue="Application.PeopleList_7_2" />
         <item itemvalue="Application.StudentCollection_7_1" />
