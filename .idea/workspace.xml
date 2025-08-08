@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c620a3a-b8a5-4f44-bb49-957f637cd0b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day8Homework/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day8Homework/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day9Homework/ExpenseTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day6Homework/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day6Homework/TextFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/GuestList_7_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/talent-program.java.java_8/Day7Homework/GuestList_7_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +62,7 @@
     "Application.DepartmentManagement_7_5.executor": "Run",
     "Application.Division_6_1.executor": "Run",
     "Application.Employee_4_4$Payroll.executor": "Run",
+    "Application.ExpenseTracker.executor": "Run",
     "Application.Factorial_3_9.executor": "Run",
     "Application.GuestList_7_3.executor": "Run",
     "Application.Hello.executor": "Run",
@@ -108,7 +106,20 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Wrapper">
+  <component name="RunManager" selected="Application.ExpenseTracker">
+    <configuration name="ExpenseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day9Homework.ExpenseTracker" />
+      <module name="khinephoowai-java-batch8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuestList_7_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day7Homework.GuestList_7_3" />
       <module name="khinephoowai-java-batch8" />
@@ -128,19 +139,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day8Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentNameList_7_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day7Homework.StudentNameList_7_4" />
-      <module name="khinephoowai-java-batch8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day7Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExpenseTracker" />
         <item itemvalue="Application.Wrapper" />
         <item itemvalue="Application.Printer" />
         <item itemvalue="Application.GuestList_7_3" />
         <item itemvalue="Application.TextFile" />
-        <item itemvalue="Application.StudentNameList_7_4" />
       </list>
     </recent_temporary>
   </component>
